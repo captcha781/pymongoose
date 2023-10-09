@@ -1,0 +1,27 @@
+*~
+*#*
+.DS*
+*.cm
+*.class
+*.pyc
+*.pyd
+build/
+doc/_build/
+dist/
+tools/settings.py
+pymongoose.egg-info/
+*.so
+*.egg
+.tox
+mongocryptd.pid
+.idea/
+.nova/
+venv/
+secrets-export.sh
+
+# Lambda temp files
+test/lambda/.aws-sam
+test/lambda/env.json
+test/lambda/mongodb/pymongo/*
+test/lambda/mongodb/gridfs/*
+test/lambda/mongodb/bson/*
